@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+
 @main
 struct SwiftUIUntruncatedTextApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 400, minHeight: 175, alignment: .top)
         }
+        .defaultSize(width: 512, height: 342)
+        .windowResizability(.contentSize)
     }
 }
