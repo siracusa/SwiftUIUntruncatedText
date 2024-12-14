@@ -5,7 +5,7 @@ the red boxes so that they are just big enough to contain all the lines of
 text.
 
 (*Ideally*, the window itself would also shrink and grow in response to the
-number of lines itself changing, but one thing at a time.)
+number of lines of text changing, but one thing at a time.)
 
 As you can see in the `ContentView`, the only way I've found to accomplish this
 is with the (very janky, IMO) use of `PreferenceKey`s. **There has got to be a
