@@ -1,8 +1,7 @@
 The goal of this demo is to have all three lines of text visible in the green
 box (which is within the red box) even as the window is resized. Also, toggling
-the number of lines in the text should shrink and grow the both the green and
-the red boxes so that they are just big enough to contain all the lines of
-text.
+the number of lines of text should shrink and grow the both the green and the
+red boxes so that they are just big enough to contain all the lines of text.
 
 (*Ideally*, the window itself would also shrink and grow in response to the
 number of lines of text changing, but one thing at a time.)
