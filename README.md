@@ -10,4 +10,8 @@ As you can see in the `ContentView`, the only way I've found to accomplish this
 is with the (very janky, IMO) use of `PreferenceKey`s. **There has got to be a
 better way!**
 
+Oh, and when I tried to used `.fixedSize(…)` to solve this problem, it interfered
+with the `.windowResizability(.contentSize)` modifier and allowed the window to be
+resized such that it cut off the button and other stuff.
+
 <img src="https://github.com/siracusa/SwiftUIUntruncatedText/blob/main/screenshot.png?raw=true" width=677 height=543 alt="Screenshot">
